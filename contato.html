@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato | Blog danieldcs</title>
+</head>
+<body>
+    <header> 
+        <section>
+            <div class="brand">
+                <img src="image-daniel.jpeg" width="76px">
+                <div>
+                    <a href="index.html">Daniel Castro</a>
+                    <span>Desenvolvedor Full Stack</span>
+                </div>
+            </div>
+                <nav>
+                    <a href="">Sobre</a>
+                    <a href="">Meus cursos</a>
+                    <a href="">Comunidades</a>
+                    <a href="">Recomendações</a>
+                    <a href="contatos.html">Contato</a>
+                </nav>
+        </section>
+    </header>
+
+    <section>
+        <article>
+         <h1>Entre em contato conosco!</h1>
+        </article>
+    </section>
+    <main>
+       
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="Nome" id="nome" required>
+                </div>
+            
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="Sobrenome" id="sobrenome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="e-mail"><strong>Email</strong></label> 
+                    <input type="e-mail" name="E-mail" id="email" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="detalhes"><strong>Digite aqui suas dúvidas, sugestões, elogios, o que quiser!</strong></label>
+                    <textarea rows="6" style="width: 26em" id="Mensagem" name="Mensagem" required></textarea>
+                </div>
+
+                <button type="submit" onsubmit="">Enviar mensagem</button>
+            </fieldset>
+
+
+        </form>
+ 
+    </main>
+
+</body>
+</html>

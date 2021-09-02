@@ -1,0 +1,202 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #141414;
+    margin: 0px;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #232323;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.brand {
+    display: flex;
+    align-items: center;
+}
+  
+.brand img {
+    max-width: 76px;
+    border-radius: 100px;
+    border: solid 4px #ffffff;
+    /*margin-left: 40px;*/
+    margin-right: 30px;
+    /*margin-top: 30px;
+    margin-bottom: 30px;*/
+}
+.brand span {
+    display: block;
+    font-size: 16px;
+    color: #939393;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.brand div {
+    font-size: 32px;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*.descricao {
+    margin: 45px 55px 0 0;
+}*/
+/*nav {
+    margin: 0 auto;
+}*/
+nav a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    /*margin-top: 40px;*/
+}
+
+div a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+}
+article {
+    max-width: 1000px;
+    width: 100%;
+    margin: 80px 0;
+}
+
+article h1 {
+    margin-bottom: 30px;
+}
+article h2 {
+    margin-bottom: 40px;
+    color: #d8d8d8;
+    font-weight: 400; /*Tira o negrito padrão das fontes */
+    font-family: 'Roboto', sans-serif;
+}
+article h3 {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+article h1, article h2 {
+    text-align: center;
+}
+
+picture {
+    display: flex;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+picture img {
+    width: auto;
+    max-width: 100%;
+}
+article section {
+    max-width: 820px;
+    flex-direction: column; /* O texto não quebra mais, devido ao flex box */
+}
+p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #D8D8D8;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+pre { /* Usa uma fonte específica de sistema.*/
+    background: #2d2d2d;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+pre .cor-rosa {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #D20F84;
+}
+
+pre .cor-dourada {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #b89721;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+footer h4 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer p {
+    text-align: center;
+}
+
+footer section {
+    background-color: #353535;
+    border-radius: 10px;
+    padding: 30px 15px; 
+    margin-bottom: 30px;
+}
+footer .container {
+    max-width: 820px;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+}
+footer .categorias ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer a {
+    color: #FFFFFF;
+    line-height: 32px;
+    text-decoration: none;
+}
